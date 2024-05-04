@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1714835398
+::res://Arts/::1714836713
+BackgroundGD.png::CompressedTexture2D::881665205902495091::1714836213::1714836716::1::::<><>::
+Ball.png::CompressedTexture2D::4150017113664947678::1714836001::1714836716::1::::<><>::
+icon.svg::CompressedTexture2D::7276922969034509400::1714835124::1714835370::1::::<><>::
+Platform.png::CompressedTexture2D::2904006023422631971::1714836405::1714836716::1::::<><>::
+Proj.png::CompressedTexture2D::2749184963784515598::1714836611::1714836716::1::::<><>::
+::res://Scenes/::1714835356
+game.tscn::PackedScene::3395079597535311330::1714835334::0::1::::<><>::res://Scripts/gamehandler.gd
+::res://Scripts/::1714835334
+gamehandler.gd::GDScript::-1::1714835334::0::1::::<>Node<>::
+::res://Sound Music/::1714835398
