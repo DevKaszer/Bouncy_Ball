@@ -1,13 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714835398
-::res://Arts/::1714836713
+::res://::1714852930
+::res://Arts/::1714836716
 BackgroundGD.png::CompressedTexture2D::881665205902495091::1714836213::1714836716::1::::<><>::
 Ball.png::CompressedTexture2D::4150017113664947678::1714836001::1714836716::1::::<><>::
 icon.svg::CompressedTexture2D::7276922969034509400::1714835124::1714835370::1::::<><>::
 Platform.png::CompressedTexture2D::2904006023422631971::1714836405::1714836716::1::::<><>::
 Proj.png::CompressedTexture2D::2749184963784515598::1714836611::1714836716::1::::<><>::
-::res://Scenes/::1714835356
-game.tscn::PackedScene::3395079597535311330::1714835334::0::1::::<><>::res://Scripts/gamehandler.gd
-::res://Scripts/::1714835334
+::res://Scenes/::1714852783
+ball.tscn::PackedScene::2199134895845135358::1714852783::0::1::::<><>::res://Scripts/ball.gd<>uid://b0ekf76km2nxe::::res://Arts/Ball.png
+game.tscn::PackedScene::3395079597535311330::1714852783::0::1::::<><>::uid://mtc5rcy4nm1x::::res://Arts/BackgroundGD.png<>res://Scripts/gamehandler.gd<>uid://6ljovt5m42oo::::res://Scenes/ball.tscn<>uid://b8q4wjvfe2iha::::res://Scenes/platform.tscn
+platform.tscn::PackedScene::4737483153453898502::1714851244::0::1::::<><>::uid://bhmys4q1q46wt::::res://Arts/Platform.png
+::res://Scripts/::1714852783
+ball.gd::GDScript::-1::1714852783::0::1::::<>CharacterBody2D<>::
 gamehandler.gd::GDScript::-1::1714835334::0::1::::<>Node<>::
 ::res://Sound Music/::1714835398

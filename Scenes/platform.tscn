@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://b8q4wjvfe2iha"]
+
+[ext_resource type="Texture2D" uid="uid://bhmys4q1q46wt" path="res://Arts/Platform.png" id="1_7p0x6"]
+[ext_resource type="Script" path="res://Scripts/platform.gd" id="1_u2bwc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_td3qg"]
+size = Vector2(48, 5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fm74y"]
+size = Vector2(48, 4)
+
+[node name="Platform" type="Node2D"]
+script = ExtResource("1_u2bwc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7p0x6")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+light_mask = 2
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_td3qg")
+one_way_collision = true
+
+[node name="Checker" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Checker"]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_fm74y")
+
+[connection signal="body_entered" from="Checker" to="." method="_on_checker_body_entered"]
